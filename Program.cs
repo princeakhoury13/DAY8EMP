@@ -5,7 +5,7 @@
         public static void Main(String[] args)
         {
             Attendance emp = new Attendance();
-            emp.IsPresent();
+            emp.DailyWage();
 
         }
     }
