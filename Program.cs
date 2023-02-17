@@ -4,8 +4,8 @@
     {
         public static void Main(String[] args)
         {
-            Attendance emp = new Attendance();
-            emp.IsPresent();
+            Console.WriteLine("Welcome to Employee Wage Computation Program on Master Branch");
+            
         }
     }
 }
