@@ -8,21 +8,29 @@ namespace DAY8EMP
 {
     public class Attendance
     {
-        public void IsPresent()
+        public void DailyWage()
         {
             int present = 1;
+            int hourlyWage = 20;
+            int empHours = 0;
+            int dailyWage = 0;
+
             Random random = new Random();
             int empCheck = random.Next(2);
 
             if (empCheck == present)
             {
                 Console.WriteLine("Employee is Present");
+                empHours = 8;
 
             }
             else
             {
                 Console.WriteLine("Employee is Absent");
+                empHours = 0;
             }
+            dailyWage = empHours * hourlyWage;
+            Console.WriteLine("Employee's Wage Today: " + dailyWage);
         }
     }
 }
